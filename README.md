@@ -6,3 +6,12 @@
 
 如果您有意愿，欢迎联系我们！
 
+## 下载说明
+
+1.完整项目下载
+
+在项目[首页](https://github.com/Cookieser/XDU-HW_Learning)点击code，Download ZIP
+
+2.单文件下载
+
+若要下载单个文件夹，复制该文件夹的网址，粘贴入[DownGit](https://minhaskamal.github.io/DownGit/#/home)中，选择download即可
