@@ -1,0 +1,16 @@
+module lab1(A,B,C,D,Z);						//declare module name as lab1 with inputs/outputs A,B,C,D and Z
+
+	input A,B,C,D;							//a,b,c and d are inputs
+	output Z;								//z is an output
+	
+	reg Z;									//value of z is assigned in an 'always' block, so needs to be declared as data type 'reg
+	
+	always @ (A,B,C,D)						//always block - code inside this block generates signals based on (A,B,C,D) 
+	begin									//marks start of code in the always block. Equivalent to { in C programming
+		Z=(~A & B & ~C & D) | (A & C & D) | (B & C & ~D);		// Z assigned value of logic function specified.
+											// ~ means 'NOT' or 'inverse', i.e. ~A means 'NOT A'
+											// & means AND
+											// | means OR
+	end										//marks end of code in the always block. Equivalent to } in C programming
+
+endmodule
