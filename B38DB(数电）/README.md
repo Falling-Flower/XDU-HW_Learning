@@ -8,7 +8,5 @@
 
   - Code
   - Question
-  - Report-Demo
   - APP(logisim)
-
   
